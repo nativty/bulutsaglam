@@ -33,12 +33,14 @@ header {
 
 .follow-btn,
 .msg-btn {
-  padding: 10px 16px; /* 👈 İç boşluk büyüdü */
+  padding: 10px 18px;
   font-size: 14px;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
   font-weight: 500;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15); /* 🎯 Buton hissi */
+  transition: background-color 0.3s ease, transform 0.1s ease;
 }
 
 .follow-btn {
@@ -47,10 +49,15 @@ header {
 }
 
 .msg-btn {
-  background-color: #efefef;
-  color: black;
+  background-color: #3897f0; /* Aynı renk olsun dedin */
+  color: white;
 }
 
+.follow-btn:hover,
+.msg-btn:hover {
+  background-color: #2877c0; /* 🎨 Hover’da biraz koyulaşır */
+  transform: translateY(-1px); /* Hafif yukarı zıplar gibi olur */
+}
 .stats-horizontal {
   display: flex;
   gap: 20px;
