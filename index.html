@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bulut Sağlam - Profil</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <div class="profile-info">
+      <div class="profile-pic">
+        <img src="image/profil.jpeg" alt="Profil Fotoğrafı">
+      </div>
+      <div class="profile-stats">
+        <div class="profile-name-container">
+          <h2>Bulut Sağlam</h2>
+          <button class="follow-btn">Takip Ediliyor</button>
+        </div>
+        <div class="stats-horizontal">
+          <span><strong>9</strong> gönderi</span>
+          <span><strong>1.234</strong> takipçi</span>
+          <span><strong>56</strong> takip</span>
+        </div>
+      </div>
+  </header>
+
+  <section class="gallery">
+    <div class="gallery-item"><img src="image/foto1.webp" onclick="openImage(this.src)"></div>
+    <div class="gallery-item"><img src="image/foto2.webp" onclick="openImage(this.src)"></div>
+    <div class="gallery-item"><img src="image/foto3.webp" onclick="openImage(this.src)"></div>
+    <div class="gallery-item"><img src="image/foto4.webp" onclick="openImage(this.src)"></div>
+    <div class="gallery-item"><img src="image/foto5.webp" onclick="openImage(this.src)"></div>
+    <div class="gallery-item"><img src="image/foto6.webp" onclick="openImage(this.src)"></div>
+    <div class="gallery-item"><img src="image/foto7.webp" onclick="openImage(this.src)"></div>
+    <div class="gallery-item"><img src="image/foto8.webp" onclick="openImage(this.src)"></div>
+    <div class="gallery-item"><img src="image/foto9.webp" onclick="openImage(this.src)"></div>
+
+  </section>
+
+  <!-- Lightbox -->
+  <div id="lightbox" onclick="closeImage()">
+    <img id="lightbox-img" src="">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
