@@ -32,7 +32,7 @@ header {
 
 .follow-btn,
 .msg-btn {
-  padding: 8px 14px; /* 👈 Daha küçük iç boşluk */
+  padding: 6px 12px; /* 👈 Daha küçük iç boşluk */
   font-size: 14px;
   font-weight: 500;
   border: none;
