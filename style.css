@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: #fff;
+  background-color: #ffffff;
 }
 
 header {
@@ -56,6 +56,15 @@ header {
   font-size: 14px;
   color: #333;
   margin-bottom: 10px;
+}
+
+.stats-vertical {
+  margin-top: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 14px;
+  color: #333;
 }
 
 .profile-info {
