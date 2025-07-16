@@ -24,30 +24,31 @@ header {
   /* veya 2px - dene, gözün hangisini seviyorsa onu kullan :) */
 }
 
-.follow-btn {
-  padding: 2px 8px;
-  /* Daha az iç boşluk */
+.button-group {
+  display: flex;
+  justify-content: center; /* 👈 Ortaya hizalar */
+  gap: 12px; /* Butonlar arası boşluk */
+  margin-top: 10px;
+}
+
+.follow-btn,
+.msg-btn {
+  padding: 10px 16px; /* 👈 İç boşluk büyüdü */
   font-size: 14px;
-  background-color: #3897f0;
-  color: black;
   border: none;
-  border-radius: 4px;
-  cursor: default;
-  user-select: none;
-  line-height: 1;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.follow-btn {
+  background-color: #3897f0;
+  color: white;
 }
 
 .msg-btn {
-  padding: 2px 8px;
-  /* Daha az iç boşluk */
-  font-size: 14px;
-  background-color: #3897f0;
+  background-color: #efefef;
   color: black;
-  border: none;
-  border-radius: 4px;
-  cursor: default;
-  user-select: none;
-  line-height: 1;
 }
 
 .stats-horizontal {
