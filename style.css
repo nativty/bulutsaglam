@@ -21,6 +21,7 @@ header {
   margin: 0;
   position: relative;
   top: 4px;
+  margin-bottom: 10px;
   /* veya 2px - dene, gözün hangisini seviyorsa onu kullan :) */
 }
 
